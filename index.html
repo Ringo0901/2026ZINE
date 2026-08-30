@@ -4,44 +4,94 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>生日册</title>
+
   <style>
-    :root { --text:#222; --muted:#888; --bg:#faf9f7; }
-    *{box-sizing:border-box}
-    body{
-      margin:0; background:var(--bg); color:var(--text);
-      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
-                  "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    :root {
+      --text:#222;
+      --muted:#888;
+      --bg:#faf9f7;
     }
+
+    *{
+      box-sizing:border-box;
+    }
+
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "PingFang SC",
+        "Hiragino Sans GB",
+        "Microsoft YaHei",
+        sans-serif;
+    }
+
     main{
       width:min(680px, calc(100% - 40px));
       margin:0 auto;
       padding:15vh 0 12vh;
     }
+
     .mark{
-      font-size:12px; letter-spacing:.18em; color:var(--muted);
+      font-size:12px;
+      letter-spacing:.18em;
+      color:var(--muted);
       margin-bottom:42px;
     }
+
     article{
-      font-size:18px; line-height:2.05; letter-spacing:.03em;
+      font-size:18px;
+      line-height:2.05;
+      letter-spacing:.03em;
       white-space:pre-line;
     }
+
     .ending{
       margin-top:48px;
       font-size:20px;
       letter-spacing:.08em;
     }
-    footer{
-      margin-top:72px; color:#aaa; font-size:11px; letter-spacing:.12em;
+
+    .social{
+      margin-top:72px;
+      font-size:11px;
+      line-height:2;
+      letter-spacing:.08em;
+      color:#aaa;
     }
+
+    footer{
+      margin-top:24px;
+      color:#aaa;
+      font-size:11px;
+      letter-spacing:.12em;
+    }
+
     @media (max-width:520px){
-      main{padding-top:11vh}
-      article{font-size:16px; line-height:1.95}
+      main{
+        padding-top:11vh;
+      }
+
+      article{
+        font-size:16px;
+        line-height:1.95;
+      }
     }
   </style>
 </head>
+
 <body>
+
   <main>
-    <div class="mark">BIRTHDAY ZINE · 2026</div>
+
+    <div class="mark">
+      BIRTHDAY ZINE · 2026
+    </div>
+
     <article>一份比原定的37页超出很多的生日册。
 
 这段时间太忙碌，偶尔空闲可以设计，在收集资料的过程中，仿佛沿着汪苏泷来时的路走了一遍。
@@ -50,8 +100,22 @@
 就这样，你的生日到来了。
 三十七岁，出道十六年。
 十二张创作集，九个演唱会主题。</article>
-    <div class="ending">你的以后，是无限大。</div>
-    <footer>FOR SILENCE WANG · INFINITY</footer>
+
+    <div class="ending">
+      你的以后，是无限大。
+    </div>
+
+    <div class="social">
+      Weibo: @在吃苹果z<br>
+      Xiaohongshu: @在吃苹果<br>
+      Douyin: @StupidApple
+    </div>
+
+    <footer>
+      FOR SILENCE WANG · INFINITY
+    </footer>
+
   </main>
+
 </body>
 </html>
